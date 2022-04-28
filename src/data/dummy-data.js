@@ -3,6 +3,7 @@ const data = [
     id: 1,
     name: 'Model S',
     tagline: 'Starting at $69,420',
+    taglineCTA: null,
     image: require('../assets/images/ModelS.jpeg'),
     primaryButtonText: 'Custom Order',
     secondaryButtonText: 'Existing Inventory',

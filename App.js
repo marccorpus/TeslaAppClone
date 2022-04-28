@@ -1,10 +1,14 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+
+import Header from './src/components/Header';
+import ProductList from './src/components/ProductList';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Hello World</Text>
+      <Header />
+      <ProductList />
     </View>
   );
 };
@@ -12,8 +16,6 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });
 
