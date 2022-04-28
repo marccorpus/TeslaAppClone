@@ -1,0 +1,57 @@
+const data = [
+  {
+    id: 1,
+    name: 'Model S',
+    tagline: 'Starting at $69,420',
+    image: require('../assets/images/ModelS.jpeg'),
+    primaryButtonText: 'Custom Order',
+    secondaryButtonText: 'Existing Inventory',
+  },
+  {
+    id: 2,
+    name: 'Model 3',
+    tagline: 'Order Online for',
+    taglineCTA: 'Touchless Delivery',
+    image: require('../assets/images/Model3.jpeg'),
+    primaryButtonText: 'Custom Order',
+    secondaryButtonText: 'Existing Inventory',
+  },
+  {
+    id: 3,
+    name: 'Model X',
+    tagline: 'Order Online for',
+    taglineCTA: 'Touchless Delivery',
+    image: require('../assets/images/ModelX.jpeg'),
+    primaryButtonText: 'Custom Order',
+    secondaryButtonText: 'Existing Inventory',
+  },
+  {
+    id: 4,
+    name: 'Model Y',
+    tagline: 'Order Online for',
+    taglineCTA: 'Touchless Delivery',
+    image: require('../assets/images/ModelY.jpeg'),
+    primaryButtonText: 'Custom Order',
+    secondaryButtonText: 'Existing Inventory',
+  },
+  {
+    id: 5,
+    name: 'Solar Panels',
+    tagline: 'Lowest Cost Solar Panels in America',
+    taglineCTA: null,
+    image: require('../assets/images/SolarPanels.jpeg'),
+    primaryButtonText: 'Order Now',
+    secondaryButtonText: 'Learn More',
+  },
+  {
+    id: 6,
+    name: 'Solar Roof',
+    tagline: 'Produce Clean Energy From Your Roof',
+    taglineCTA: null,
+    image: require('../assets/images/SolarRoof.jpeg'),
+    primaryButtonText: 'Order Now',
+    secondaryButtonText: 'Learn More',
+  },
+];
+
+export default data;
